@@ -75,6 +75,7 @@ img {object-fit: cover; max-height: 100%;}
   position: relative;
   border-color: red;
   border-style: solid;
+  width: 100%;
   border: 3px;
 }
 
@@ -129,7 +130,7 @@ img {object-fit: cover; max-height: 100%;}
 }
 @media only screen and (max-width: 1250px) {
   .button {
-    padding: 5px 8px;
+    padding: 8px 6px;
   }
   .floatingContainer {
     width: 100%;
@@ -140,6 +141,11 @@ img {object-fit: cover; max-height: 100%;}
     width: 100%;
     margin: 10px 0 0 0;
     padding: 0;
+  }
+  .container {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    padding: 0%;
   }
   .height20 {
     height: 40%;
