@@ -119,6 +119,33 @@ img {object-fit: cover; max-height: 100%;}
   white-space: nowrap;
 }
 
+.backimg-1, .backimg-2 {
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backimg-3, .backimg-4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backimg-1 {
+  background-image: url("../images/padden.jpg");
+  min-height: inherit;
+}
+.backimg-2 {
+  background-image: url("../images/cave.jpg");
+  min-height: inherit;
+}
+.backimg-3 {
+  background-image: url("../images/urban.jpg");
+  min-height: inherit;
+}
+.backimg-4 {
+  background-image: url("../images/codes.jpg");
+  min-height: inherit;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -129,8 +156,12 @@ img {object-fit: cover; max-height: 100%;}
   height: 30px;
 }
 @media only screen and (max-width: 1250px) {
+  .backimg-1, .backimg-2 {
+    background-attachment: scroll;
+    background-position: center;
+  }
   .button {
-    padding: 8px 8px;
+    padding: 8px 9px;
   }
   .floatingContainer {
     width: 100%;
