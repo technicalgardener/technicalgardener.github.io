@@ -13,7 +13,11 @@ img {object-fit: cover; max-height: 100%;}
 .heightFull {height: 100%;}
 .height90 {height: 95%;}
 .height75 {height: 75%;}
+.height65 {height: 65%;}
+.height50 {height: 50%;}
 .height45 {height: 45%;}
+.height40 {height: 40%;}
+.height38 {height: 38%;}
 .height30 {height: 30%;}
 .height20 {height: 20%;}
 
