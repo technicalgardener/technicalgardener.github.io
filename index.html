@@ -1,1 +1,135 @@
-Hello World!
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CMikkelborg </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" type="text/css" href="resources/res.css"/>
+  <link rel="stylesheet" type="text/css" href="resources/normalize.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css"/>
+
+  <style>
+
+  .backimg-1, .backimg-2 {
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .backimg-3, .backimg-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .backimg-1 {
+    background-image: url("images/padden.jpg");
+    min-height: inherit;
+  }
+  .backimg-2 {
+    background-image: url("images/cave.jpg");
+    min-height: inherit;
+  }
+  .backimg-3 {
+    background-image: url("images/urban.jpg");
+    min-height: inherit;
+  }
+  .backimg-4 {
+    background-image: url("images/codes.jpg");
+    min-height: inherit;
+  }
+
+  </style>
+</head>
+<body>
+  <!-- NAV BAR -->
+  <div class="widthFull marginHide bgWhite boxShadow attachTop positionFix zIndexTop">
+    <a class="navbarItem button floatLeft" href="#home">home</a>
+    <a class="navbarItem button floatLeft" href="#about"><i class="fa fa-user letSpacingXL"></i>about</a>
+    <a class="navbarItem button floatLeft" href="#portfolio"><i class="fa fa-th letSpacingXL"></i>portfolio</a>
+    <a class="navbarItem button floatLeft" href="#contact"><i class="fa fa-envelope letSpacingXL"></i>contact</a>
+    <a class="navbarItem button floatRight" href="#contact"><i class="fa fa-search"></i></a>
+  </div>
+
+  <!-- LANDING / HOME -->
+  <div class="widthFull heightFull marginAuto backimg-1 boxShadow" id="home">
+    <div class="boxCenter fontsizeXL letSpacingXL fcWhite zIndexMid"><em>Charles Mikkelborg</em></div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <div class="blankSpace" id="about"></div>
+  <div class="maxWidth900 bgWhite marginAuto marginTop20 paddingXL">
+    <h1 class="centerText">about me</h1>
+    <h3 class="centerText">aspiring software engineer, photographer, and veteran in search of good eats, quality code, and good youtubes</h3>
+    <p>&ensp; As a US Navy veteran and submarine sonar technician, I bring a unique blend of technical expertise, 
+      adaptability, and disciplined work ethic to the software development field. Graduating with distinction from 
+      the Submarine Electronics and Computer Field program, I have honed my skills in electronics, computer systems, 
+      and problem-solving in high-pressure environments.</p>
+    <p>&ensp;My experience as a submarine sonar technician has instilled in me meticulous attention to detail and 
+      a strong commitment to excellence. Working within a highly technical and complex environment, I have developed 
+      proficiency in troubleshooting, diagnosing, and resolving intricate technical issues. These skills, combined 
+      with my ability to collaborate effectively within a team, make me a reliable and resourceful problem solver.</p>
+    <p>&ensp;Additionally, my education in computer science, that will conclude with, by Spring 2025, a Master of Science 
+      degree in Computer Science from Western Washington University, has provided me with a solid foundation in programming 
+      languages such as Python, Java, and C. I am currently working to complete a racquetball management system for a 
+      local athletic club, to support my local community and demonstrate my ability to deliver high-quality software 
+      solutions as well beginning research in hardware security protocols. My military background has cultivated strong 
+      leadership qualities, adaptability, and the ability to perform under pressure. I have acquired excellent communication 
+      skills and the ability to work effectively in diverse teams and be supportive in a variety of environments.
+      The combination of my technical expertise, problem-solving abilities, adaptability, leadership skills, and dedication 
+      to excellence make me a valuable addition to any software development team.</p>
+    <br>
+    <p>Awards:</p>
+    <p>Summe Cum Laude - Bellingham Technical College</p>
+    <p>Graduated with Distinction - US Navy Submarine Electronics/Computer Field School</p>
+  </div>
+
+  <!-- GOALS -->
+  <div class="blankSpace" id="goals"></div>
+  <div class="maxWidth900 height20 bgWhite marginAuto marginTop20">
+    <h1 class="centerText">current projects</h1>
+    <h4>this website - enhancing mobile responsive design and adding gallery feature<br>fitbit clockface with weather - more background transitions based on weather conditions, add step tracking</h4>
+  </div>
+  <div class="maxWidth900 height20 bgWhite marginAuto marginTop20">
+    <h1 class="centerText">past projects</h1>
+    <h4>mouse autoClicker python app<br>creating GUIs in python</h4>
+  </div>
+  <div class="maxWidth900 height30 bgWhite marginAuto marginTop20">
+    <h1 class="centerText">languages</h1>
+    <h4>c/c++<br>java<br>python<br>scheme<br>html/css<br>javascript<br>SQL/mySQL<br>r</h4>
+  </div>
+  
+
+  <!-- PORTFOLIO -->
+  <div class="blankSpace" id="portfolio"></div>
+  <div class="container widthFull height45 bgWhite marginAuto marginTop20 backimg-2 boxShadow">
+    <div class="boxCenter fontsizeXL letSpacingXL whiteOnGray zIndexMid minWidth300"><em>portfolio</em></div>
+  </div>
+
+  <!-- SLIDESHOWS -->
+  <div class="container maxWidth1200 marginAuto marginTop20 row">
+    <div class="floatingContainer height-400 boxShadow backimg-3">
+      <a href="" target="_blank" style="text-decoration:none">
+        <div class="boxCenter2 fcWhite fontsizeLG zIndexMid">photos</div>
+        <div class="hwCenter bgGray widthFull heightFull zIndexMid whiteOnGray"></div>
+      </a>
+    </div>
+
+    <div class="floatingContainer2 height-400 boxShadow backimg-4">
+      <a href="https://github.com/technicalgardener" target="_blank" style="text-decoration:none">
+        <div class="boxCenter2 fcWhite fontsizeLG zIndexMid">github</div>
+        <div class="hwCenter bgGray widthFull heightFull fontsizeLG zIndexMid whiteOnGray"></div>
+      </a>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="container widthFull height20 bgDarkGray marginAuto marginTop20 fcLightGray letSpacingMD" id="contact">
+    <h1 class="paddingXL">profiles</h1>
+    <div class="widthFull marginAuto centerText">
+      <a class="displayInblock navbarItem button" href="https://www.linkedin.com/in/cmikkelborg" target="_blank"><i class="fab fa-linkedin fontsizeXL letSpacingLG paddingMD"></i>Linkedin</a>
+      <a class="displayInblock navbarItem button" href="https://github.com/technicalgardener" target="_blank"><i class="fab fa-github-square fontsizeXL letSpacingLG paddingMD"></i>github</a>
+      <a class="displayInblock navbarItem button" href="https://www.instagram.com/themuckleborg/" target="_blank"><i class="fab fa-instagram fontsizeXL letSpacingLG paddingMD"></i>Instagram</a>
+    </div>
+  </div>
+</body>
+</html>
