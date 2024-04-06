@@ -124,6 +124,7 @@ img {object-fit: cover; max-height: 100%;}
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .backimg-3, .backimg-4 {
   background-repeat: no-repeat;
